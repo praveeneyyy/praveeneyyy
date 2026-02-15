@@ -1,158 +1,127 @@
-<img src="https://github.com/YOURUSERNAME/YOURUSERNAME/blob/main/banner.png" />
-<p align="center">
-<img src="[https://66.media.tumblr.com/95e6d2752f6da3478bda2ba738d83e27/tumblr_miw2vk796q1qzqnxxo1_r1_500.gif]" width="600"/>
-</p>
+<img src="https://github.com/praveeneyyy/praveeneyyy/blob/main/banner.png" />
 
 <h1 align="center">Praveen ⚡</h1>
-<h3 align="center">AI Systems Builder • Backend Engineer • Future Infrastructure Mind</h3>
-<p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?size=28&duration=3500&color=58A6FF&center=true&vCenter=true&width=600&lines=AI+Systems+Engineer;Backend+Specialist;Building+Scalable+Platforms;Future+Infrastructure+Mind" />
-</p>
+<h3 align="center">AI Systems Engineer in the Making • Backend Architect • Infrastructure Thinker</h3>
 
 <p align="center">
-Building intelligent platforms that solve real-world problems.<br>
-Calm systems. Scalable thinking. Minimal noise.
+Designing intelligent systems that solve real-world problems.<br>
+Systems over scripts. Depth over noise.
 </p>
 
 ---
 
-## 🧠 About Me
+## 🧭 Engineering Direction
 
-🎓 Engineering Student  
-🛠️ Builder mindset — not tutorial-driven  
-🤖 Focused on AI-powered platforms  
-⚙️ Love designing backend systems  
-📈 Compounding skills daily  
+I am intentionally building toward becoming an engineer trusted with **large-scale intelligent systems.**
 
-> I don’t chase trends.  
-> I build capability.
+My focus sits at the intersection of:
 
-*(Yes… indentation matters.)*
+- Applied Artificial Intelligence  
+- Backend Architecture  
+- Scalable System Design  
+- Automation Infrastructure  
 
----
-
-## ⚡ Engineering Depth
-
-**AI / Machine Learning**
-![AI](https://img.shields.io/badge/Progress-70%25-2ea44f?style=for-the-badge)
-
-**Backend Engineering**
-![Backend](https://img.shields.io/badge/Progress-75%25-2ea44f?style=for-the-badge)
-
-**System Design**
-![System](https://img.shields.io/badge/Progress-65%25-2ea44f?style=for-the-badge)
-
-**Full Stack**
-![Fullstack](https://img.shields.io/badge/Progress-60%25-yellow?style=for-the-badge)
-## 🛡️ Flagship System
-
-### 🔥 Multi-Language AI Content Moderation Platform
-
-An intelligent moderation engine capable of analyzing:
-
-✅ Text  
-✅ Audio  
-✅ Images  
-✅ Video  
-
-Across multiple languages.
-
-**Engineered like infrastructure — not a classroom project.**
-
-**Core Depth:**
-
-- ML inference pipelines  
-- API-first backend  
-- automation workflows  
-- scalable architecture  
-
-Debugging ML at 2AM included free of cost.
+> Not chasing trends. Building irreversible skill.
 
 ---
 
-# ⚙️ Tech Stack
+## 🛡️ Sentinel-AI — Intelligent Moderation Infrastructure
 
-## 👨‍💻 Languages
-<p>
-<img src="https://skillicons.dev/icons?i=python,js,java,sql" />
-</p>
+**Flagship Engineering System**
 
-## ⚡ Backend & Tools
-<p>
-<img src="https://skillicons.dev/icons?i=fastapi,nodejs,mongodb,git,docker" />
-</p>
+A multi-language AI moderation platform engineered to detect and process harmful content across:
 
-## 🧠 Focus Areas
-<p>
-<img src="https://skillicons.dev/icons?i=tensorflow,linux" />
-</p>
+✔ Text  
+✔ Audio  
+✔ Images  
+✔ Video  
 
-*(Notice we avoid showing 40 tools. Elite engineers signal focus.)*
+### Why This Matters
+As digital platforms scale, moderation becomes critical infrastructure — not a feature.
 
----
+This system is being designed with **production-level thinking**, emphasizing reliability, automation, and horizontal scalability.
 
-# 📊 GitHub Intelligence
+### Engineering Depth
 
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=YOURUSERNAME&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12" height="165"/>
+• Machine learning inference pipelines  
+• API-first backend architecture  
+• Automated decision workflows  
+• Scalable service design  
+• Observability and logging  
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOURUSERNAME&layout=compact&theme=tokyonight&hide_border=true&border_radius=12" height="165"/>
-</p>
+> Built like infrastructure — not a classroom project.
 
 ---
 
-# 🔥 Selected Builds
+## ⚙️ Core Engineering Strength
 
-### 🥗 Smart Canteen Management System
-Digitizing campus food workflows to eliminate queues and improve operational flow.
+### Primary Stack
+- Python  
+- FastAPI  
+- REST Architecture  
+- MongoDB / Database Design  
+- Machine Learning Integration  
 
-**Theme:** system design + usability.
+### Expanding Into
+- Distributed Systems  
+- Cloud Infrastructure  
+- Model Optimization  
+- High-scale backend design  
+
+Depth compounds. I optimize for long-term engineering leverage.
 
 ---
 
-### 🎯 Gamified Habit Tracker
-Behavior-driven mobile platform engineered around retention psychology.
+## 🚧 Currently Engineering
 
-Because motivation fades.  
-Systems don’t.
+- Advanced AI moderation pipelines  
+- Production-ready ML workflows  
+- Scalable backend services  
+- Deep system design capability  
+
+Trajectory matters more than speed.
 
 ---
 
-## 🧭 Engineering Philosophy
+## 🧠 Engineering Philosophy
 
-✔ Depth > Hype  
-✔ Ship > Talk  
-✔ Systems > Scripts  
-✔ Consistency compounds  
+• Build for scale — even when starting small  
+• Prefer clarity over cleverness  
+• Ship → measure → iterate  
+• Optimize for compounding skill  
 
 Good engineering is invisible…
 
-Until it fails.
+until it fails.
+
+---
+
+## 📊 GitHub Signal
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=praveeneyyy&show_icons=true&theme=tokyonight&hide_border=true" height="165"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=praveeneyyy&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
+</p>
 
 ---
 
 ## 🎯 Mission
 
-Become the engineer trusted with:
+Earn a reputation for solving problems most engineers avoid.
 
-- complex systems  
-- real scale  
-- meaningful problems  
-
-No shortcuts.
-
-Just stacked competence.
+Calm execution. Serious systems. Long horizon.
 
 ---
 
 ## 🤝 Connect
 
 <p align="center">
-<a href="https://linkedin.com/in/YOUR LINKEDIN">
+<a href="https://www.linkedin.com/in/praveenkumar2212">
 <img src="https://skillicons.dev/icons?i=linkedin" />
 </a>
 
-<a href="mailto:YOUR EMAIL">
+<a href="mailto:praveensky2006@gmail.com">
 <img src="https://skillicons.dev/icons?i=gmail" />
 </a>
 </p>

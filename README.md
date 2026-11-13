@@ -1,46 +1,56 @@
 <!-- ================================================================= -->
-<!-- HERO IDENTITY BANNER                                              -->
+<!-- CINEMATIC 3D HERO — COMPUTATIONAL IDENTITY                        -->
 <!-- ================================================================= -->
 
 <p align="center">
-  <a href="https://praveeneyyy.vercel.app/" target="_blank" rel="noopener noreferrer">
+  <a href="https://praveeneyyy.vercel.app/experience" target="_blank" rel="noopener noreferrer">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/hero-animation.gif">
-      <source media="(prefers-color-scheme: light)" srcset="assets/hero-banner.svg">
-      <img src="assets/hero-animation.gif" width="100%" alt="Praveen Kumar — AI Engineer & Full-Stack Developer Banner" />
+      <source media="(prefers-color-scheme: dark)" srcset="assets/hero-preview.gif">
+      <source media="(prefers-color-scheme: light)" srcset="assets/hero-static.png">
+      <img src="assets/hero-preview.gif" width="100%" alt="Praveen Kumar — 3D Computational Architecture Experience (Click to launch live)" />
     </picture>
   </a>
 </p>
 
-<!-- DYNAMIC TYPING SVG INDICATOR -->
+<!-- 3D LIVE LAUNCH PILL & TYPING SVG -->
 <p align="center">
-  <a href="https://praveeneyyy.vercel.app/" target="_blank" rel="noopener noreferrer">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=19&duration=2800&pause=1100&color=22D3EE&center=true&vCenter=true&multiline=false&width=620&height=46&lines=AI%2FML+Engineer;Generative+AI+Developer;Full-Stack+Engineer;Agentic+AI+Explorer;Software+Engineer;Building+Intelligent+Systems" alt="Dynamic Role Telemetry" />
+  <a href="https://praveeneyyy.vercel.app/experience" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/✦_LAUNCH_LIVE_3D_EXPERIENCE-080B10?style=for-the-badge&logo=three.js&logoColor=67E8F9&labelColor=080B10" alt="Launch 3D WebGL Experience" />
   </a>
 </p>
 
-<!-- STRATEGIC QUICK-CONNECT BAR -->
+<p align="center">
+  <a href="https://praveeneyyy.vercel.app/experience" target="_blank" rel="noopener noreferrer">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=19&duration=2800&pause=1100&color=67E8F9&center=true&vCenter=true&multiline=false&width=620&height=44&lines=AI%2FML+Engineer;Full-Stack+Developer;Generative+AI+Builder;Agentic+AI+Explorer;Software+Engineer;Building+Intelligent+Systems" alt="Dynamic Role Telemetry" />
+  </a>
+</p>
+
+<p align="center">
+  <i>"Engineering intelligent systems. Designing meaningful experiences."</i>
+</p>
+
+<!-- MINIMAL SOCIAL & QUICK-CONNECT BAR -->
 <p align="center">
   <a href="https://praveeneyyy.vercel.app/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Portfolio-080B12?style=for-the-badge&logo=vercel&logoColor=22D3EE&labelColor=080B12" alt="Portfolio Badge" />
+    <img src="https://img.shields.io/badge/Portfolio-080B10?style=for-the-badge&logo=vercel&logoColor=67E8F9&labelColor=080B10" alt="Portfolio Badge" />
   </a>&nbsp;
   <a href="https://linkedin.com/in/praveenkumar2212" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/LinkedIn-080B12?style=for-the-badge&logo=linkedin&logoColor=818CF8&labelColor=080B12" alt="LinkedIn Badge" />
+    <img src="https://img.shields.io/badge/LinkedIn-080B10?style=for-the-badge&logo=linkedin&logoColor=818CF8&labelColor=080B10" alt="LinkedIn Badge" />
   </a>&nbsp;
   <a href="mailto:praveensky2006@gmail.com">
-    <img src="https://img.shields.io/badge/Email-080B12?style=for-the-badge&logo=gmail&logoColor=22D3EE&labelColor=080B12" alt="Email Badge" />
+    <img src="https://img.shields.io/badge/Email-080B10?style=for-the-badge&logo=gmail&logoColor=67E8F9&labelColor=080B10" alt="Email Badge" />
   </a>&nbsp;
   <a href="https://github.com/praveeneyyy">
-    <img src="https://img.shields.io/badge/GitHub-080B12?style=for-the-badge&logo=github&logoColor=F1F5F9&labelColor=080B12" alt="GitHub Badge" />
+    <img src="https://img.shields.io/badge/GitHub-080B10?style=for-the-badge&logo=github&logoColor=F5F7FA&labelColor=080B10" alt="GitHub Badge" />
   </a>
 </p>
 
-<!-- REPOSITORY TELEMETRY -->
+<!-- TELEMETRY BADGES -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=praveeneyyy&label=PROFILE%20VIEWS&color=22D3EE&style=flat-square" alt="Profile Visitors" />&nbsp;
-  <img src="https://img.shields.io/github/stars/praveeneyyy?style=flat-square&color=818CF8&labelColor=080B12" alt="GitHub Total Stars" />&nbsp;
-  <img src="https://img.shields.io/badge/Location-Chennai%2C%20India-64748B?style=flat-square&labelColor=080B12" alt="Location Badge" />&nbsp;
-  <img src="https://img.shields.io/badge/Status-Building%20Intelligent%20Systems-22D3EE?style=flat-square&labelColor=080B12" alt="Status Badge" />
+  <img src="https://komarev.com/ghpvc/?username=praveeneyyy&label=PROFILE%20VIEWS&color=67E8F9&style=flat-square" alt="Profile Telemetry" />&nbsp;
+  <img src="https://img.shields.io/github/stars/praveeneyyy?style=flat-square&color=818CF8&labelColor=080B10" alt="GitHub Total Stars" />&nbsp;
+  <img src="https://img.shields.io/badge/Location-Chennai%2C%20India-64748B?style=flat-square&labelColor=080B10" alt="Location Badge" />&nbsp;
+  <img src="https://img.shields.io/badge/Three.js-3D%20Runtime-67E8F9?style=flat-square&labelColor=080B10" alt="Three.js Badge" />
 </p>
 
 <!-- SECTION DIVIDER -->
@@ -49,13 +59,13 @@
 </p>
 
 <!-- ================================================================= -->
-<!-- SECTION 01: ABOUT ME & IDENTITY                                   -->
+<!-- SECTION 01: ABOUT ME                                              -->
 <!-- ================================================================= -->
 
 <h2 align="center">✦ 01 // ARCHITECT &amp; DEVELOPER IDENTITY</h2>
 
 <p align="center">
-  <img src="assets/about-visual.svg" width="100%" alt="Praveen Kumar — About Visual Architecture" />
+  <img src="assets/about.svg" width="100%" alt="About Praveen Kumar" />
 </p>
 
 <p>
@@ -83,14 +93,6 @@ My engineering perspective spans the <b>entire development lifecycle</b>:
 <!-- ================================================================= -->
 
 <h2 align="center">✦ 02 // WHAT I'M BUILDING &amp; EXPLORING</h2>
-
-<p align="center">
-  <img src="assets/ai-visual.svg" width="100%" alt="AI &amp; Machine Learning Engineering Focus" />
-</p>
-
-<p align="center">
-  <img src="assets/engineering-visual.svg" width="100%" alt="Full-Stack &amp; Systems Architecture Focus" />
-</p>
 
 <table width="100%">
   <thead>
@@ -128,7 +130,7 @@ My engineering perspective spans the <b>entire development lifecycle</b>:
           <li><b>Agentic Self-Correction:</b> Multi-turn critique &amp; autonomous tool use</li>
           <li><b>Distributed Architectures:</b> Message queues &amp; event-driven streaming</li>
           <li><b>Vector Sharding:</b> Hybrid lexical-semantic search &amp; cross-encoders</li>
-          <li><b>Container Orchestration:</b> Multi-container Docker topologies</li>
+          <li><b>3D Web Interfaces:</b> <code>Three.js</code> &amp; <code>React Three Fiber</code></li>
           <li><b>Production MLOps:</b> Continuous model evaluation &amp; low-latency serving</li>
         </ul>
       </td>
@@ -287,7 +289,7 @@ My engineering perspective spans the <b>entire development lifecycle</b>:
 </p>
 
 <!-- ================================================================= -->
-<!-- SECTION 04: TECHNOLOGY ARSENAL                                    -->
+<!-- SECTION 04: TECHNOLOGY STACK                                      -->
 <!-- ================================================================= -->
 
 <h2 align="center">✦ 04 // CORE TECHNOLOGIES &amp; ARSENAL</h2>
@@ -300,10 +302,10 @@ My engineering perspective spans the <b>entire development lifecycle</b>:
         <h4 align="center">PROGRAMMING LANGUAGES</h4>
         <p align="center">
           <a href="https://skillicons.dev">
-            <img src="https://skillicons.dev/icons?i=python,java,ts,js,c&theme=dark" alt="Languages: Python, Java, TypeScript, JavaScript, C" />
+            <img src="https://skillicons.dev/icons?i=python,java,c,js,ts&theme=dark" alt="Languages: Python, Java, C, JavaScript, TypeScript" />
           </a>
         </p>
-        <p align="center"><code>Python 3.12</code> · <code>Java</code> · <code>TypeScript</code> · <code>JavaScript (ES6+)</code> · <code>C</code> · <code>SQL</code></p>
+        <p align="center"><code>Python 3.12</code> · <code>Java</code> · <code>C</code> · <code>JavaScript (ES6+)</code> · <code>TypeScript</code> · <code>SQL</code></p>
       </td>
       <td width="50%" valign="top">
         <h4 align="center">AI, MACHINE LEARNING &amp; AGENTS</h4>
@@ -323,7 +325,7 @@ My engineering perspective spans the <b>entire development lifecycle</b>:
             <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,vite&theme=dark" alt="Frontend: React, Next.js, TailwindCSS, HTML5, CSS3, Vite" />
           </a>
         </p>
-        <p align="center"><code>React 19</code> · <code>Next.js 14/16</code> · <code>Tailwind CSS</code> · <code>Framer Motion</code> · <code>HTML5/CSS3</code></p>
+        <p align="center"><code>React 19</code> · <code>Next.js 14/16</code> · <code>Tailwind CSS</code> · <code>Three.js</code> · <code>Framer Motion</code></p>
       </td>
       <td width="50%" valign="top">
         <h4 align="center">BACKEND &amp; MICROSERVICES</h4>
@@ -365,7 +367,7 @@ My engineering perspective spans the <b>entire development lifecycle</b>:
 </p>
 
 <!-- ================================================================= -->
-<!-- SECTION 05: EXPERIENCE & LEADERSHIP (BEYOND THE CODE)              -->
+<!-- SECTION 05: EXPERIENCE & LEADERSHIP                               -->
 <!-- ================================================================= -->
 
 <h2 align="center">✦ 05 // BEYOND THE CODE — LEADERSHIP &amp; EXPERIENCE</h2>
@@ -433,14 +435,14 @@ My engineering perspective spans the <b>entire development lifecycle</b>:
     <!-- STATS CARD -->
     <td width="50%" align="center" valign="middle">
       <a href="https://github.com/praveeneyyy">
-        <img width="100%" src="https://github-stats-extended.vercel.app/api?username=praveeneyyy&show_icons=true&count_private=true&include_all_commits=true&bg_color=080B12&title_color=22D3EE&icon_color=818CF8&text_color=F1F5F9&border_color=253047" alt="Praveen's GitHub Statistics" />
+        <img width="100%" src="https://github-stats-extended.vercel.app/api?username=praveeneyyy&show_icons=true&count_private=true&include_all_commits=true&bg_color=080B10&title_color=67E8F9&icon_color=818CF8&text_color=F5F7FA&border_color=202938" alt="Praveen's GitHub Statistics" />
       </a>
     </td>
 
     <!-- TOP LANGUAGES CARD -->
     <td width="50%" align="center" valign="middle">
       <a href="https://github.com/praveeneyyy">
-        <img width="100%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=praveeneyyy&layout=compact&bg_color=080B12&title_color=22D3EE&icon_color=818CF8&text_color=F1F5F9&border_color=253047" alt="Top Languages Breakdown" />
+        <img width="100%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=praveeneyyy&layout=compact&bg_color=080B10&title_color=67E8F9&icon_color=818CF8&text_color=F5F7FA&border_color=202938" alt="Top Languages Breakdown" />
       </a>
     </td>
   </tr>
@@ -449,7 +451,7 @@ My engineering perspective spans the <b>entire development lifecycle</b>:
   <tr>
     <td colspan="2" align="center" valign="middle">
       <a href="https://github.com/praveeneyyy">
-        <img width="100%" src="https://streak-stats.demolab.com/?user=praveeneyyy&background=080B12&ring=22D3EE&fire=818CF8&currStreakNum=22D3EE&currStreakLabel=F1F5F9&sideNums=F1F5F9&sideLabels=94A3B8&dates=64748B&border=253047" alt="Contribution Streak Analytics" />
+        <img width="100%" src="https://streak-stats.demolab.com/?user=praveeneyyy&background=080B10&ring=67E8F9&fire=818CF8&currStreakNum=67E8F9&currStreakLabel=F5F7FA&sideNums=F5F7FA&sideLabels=9CA3AF&dates=64748B&border=202938" alt="Contribution Streak Analytics" />
       </a>
     </td>
   </tr>
@@ -482,10 +484,10 @@ My engineering perspective spans the <b>entire development lifecycle</b>:
     <td width="50%" valign="top">
       <h3>🧠 Engineering Philosophy</h3>
       <p>
-        <i>"Code is a liability; clear systems are an asset."</i>
+        <i>"Building intelligent systems with thoughtful engineering and intentional design."</i>
       </p>
       <p>
-        I believe that the best software is not the one with the most lines of code, but the one that solves difficult human problems with minimal friction, elegant architecture, verified data provenance, and enduring reliability.
+        I strive to build software that is robust, elegant, and deeply grounded in real-world utility—bridging cutting-edge foundation models with production backend stability and calm user interfaces.
       </p>
     </td>
     <td width="50%" valign="top">
@@ -496,7 +498,7 @@ My engineering perspective spans the <b>entire development lifecycle</b>:
       <ul>
         <li><b>Autonomous AI:</b> Agentic workflows &amp; stateful reasoning graphs</li>
         <li><b>High-Throughput Backends:</b> Asynchronous microservices in FastAPI/Python</li>
-        <li><b>Full-Stack Products:</b> Next.js, React 19, and cloud-native software</li>
+        <li><b>Full-Stack Products:</b> Next.js, React 19, and 3D web applications</li>
         <li><b>Hackathons:</b> Building innovative prototypes under fast turnaround</li>
       </ul>
     </td>
@@ -521,13 +523,14 @@ My engineering perspective spans the <b>entire development lifecycle</b>:
 <!-- ================================================================= -->
 
 <p align="center">
-  <a href="https://praveeneyyy.vercel.app/" target="_blank" rel="noopener noreferrer">
-    <img src="assets/footer.svg" width="100%" alt="Praveen Kumar Footer — Building Ideas Into Intelligent Systems" />
+  <a href="https://praveeneyyy.vercel.app/experience" target="_blank" rel="noopener noreferrer">
+    <img src="assets/footer.svg" width="100%" alt="Praveen Kumar Footer — Engineering Intelligent Systems" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://praveeneyyy.vercel.app/" target="_blank" rel="noopener noreferrer"><b>VISIT PORTFOLIO ↗</b></a> &nbsp;•&nbsp;
+  <a href="https://praveeneyyy.vercel.app/experience" target="_blank" rel="noopener noreferrer"><b>✦ 3D EXPERIENCE ↗</b></a> &nbsp;•&nbsp;
+  <a href="https://praveeneyyy.vercel.app/" target="_blank" rel="noopener noreferrer"><b>PORTFOLIO ↗</b></a> &nbsp;•&nbsp;
   <a href="https://linkedin.com/in/praveenkumar2212" target="_blank" rel="noopener noreferrer"><b>LINKEDIN ↗</b></a> &nbsp;•&nbsp;
   <a href="https://github.com/praveeneyyy" target="_blank" rel="noopener noreferrer"><b>GITHUB ↗</b></a> &nbsp;•&nbsp;
   <a href="mailto:praveensky2006@gmail.com"><b>GET IN TOUCH ↗</b></a>

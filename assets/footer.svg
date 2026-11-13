@@ -1,19 +1,19 @@
 <svg width="1200" height="150" viewBox="0 0 1200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#080B12" />
-      <stop offset="50%" stop-color="#0D111B" />
-      <stop offset="100%" stop-color="#080B12" />
+      <stop offset="0%" stop-color="#080B10" />
+      <stop offset="50%" stop-color="#0D1117" />
+      <stop offset="100%" stop-color="#080B10" />
     </linearGradient>
     <linearGradient id="footerBorder" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#253047" stop-opacity="0.5" />
-      <stop offset="30%" stop-color="#22D3EE" stop-opacity="0.8" />
+      <stop offset="0%" stop-color="#202938" stop-opacity="0.5" />
+      <stop offset="30%" stop-color="#67E8F9" stop-opacity="0.8" />
       <stop offset="70%" stop-color="#818CF8" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#253047" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#202938" stop-opacity="0.5" />
     </linearGradient>
     <linearGradient id="textShimmer" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#F1F5F9" />
-      <stop offset="50%" stop-color="#22D3EE" />
+      <stop offset="0%" stop-color="#F5F7FA" />
+      <stop offset="50%" stop-color="#67E8F9" />
       <stop offset="100%" stop-color="#818CF8" />
     </linearGradient>
     <filter id="horizonGlow" x="-20%" y="-100%" width="140%" height="300%">
@@ -34,22 +34,22 @@
 
   <!-- Luminous Horizon Line -->
   <line x1="80" y1="20" x2="1120" y2="20" stroke="url(#footerBorder)" stroke-width="1.2" filter="url(#horizonGlow)" />
-  <circle cx="600" cy="20" r="3.5" fill="#22D3EE" />
+  <circle cx="600" cy="20" r="3.5" fill="#67E8F9" />
   <circle cx="600" cy="20" r="1.5" fill="#FFFFFF" />
 
   <!-- Center Closing Message -->
   <g transform="translate(600, 68)">
-    <text text-anchor="middle" fill="url(#textShimmer)" class="font-head" font-size="20" letter-spacing="4">BUILDING IDEAS INTO INTELLIGENT SYSTEMS.</text>
+    <text text-anchor="middle" fill="url(#textShimmer)" class="font-head" font-size="19" letter-spacing="4">ENGINEERING INTELLIGENT SYSTEMS · DESIGNING MEANINGFUL EXPERIENCES</text>
   </g>
 
   <!-- Subtitle & Coordinates -->
   <g transform="translate(600, 102)">
-    <text text-anchor="middle" fill="#94A3B8" class="font-mono" font-size="11.5" letter-spacing="2">PRAVEEN KUMAR  ·  CHENNAI, INDIA  ·  DESIGNED WITH INTENTION</text>
+    <text text-anchor="middle" fill="#9CA3AF" class="font-mono" font-size="11.5" letter-spacing="2">S PRAVEEN KUMAR  ·  CHENNAI, INDIA  ·  3D IDENTITY EXPERIENCE</text>
   </g>
 
   <!-- Bottom Details -->
   <g transform="translate(600, 128)">
     <text text-anchor="start" x="-540" y="0" fill="#64748B" class="font-mono" font-size="9" letter-spacing="1">B.E. CSE (AI &amp; ML) · SATHYABAMA SIST</text>
-    <text text-anchor="end" x="540" y="0" fill="#64748B" class="font-mono" font-size="9" letter-spacing="1">GITHUB PROFILE SPECIFICATION v3.0</text>
+    <text text-anchor="end" x="540" y="0" fill="#64748B" class="font-mono" font-size="9" letter-spacing="1">THREE.JS RUNTIME COMPANION</text>
   </g>
 </svg>

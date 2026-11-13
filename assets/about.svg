@@ -1,0 +1,101 @@
+<svg width="1200" height="240" viewBox="0 0 1200 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aboutBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117" />
+      <stop offset="100%" stop-color="#080B10" />
+    </linearGradient>
+    <linearGradient id="innerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0D1117" />
+    </linearGradient>
+    <linearGradient id="aboutBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#202938" />
+      <stop offset="35%" stop-color="#67E8F9" stop-opacity="0.5" />
+      <stop offset="65%" stop-color="#818CF8" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#202938" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-mono { font-family: 'Geist Mono', 'JetBrains Mono', 'Courier New', monospace; }
+    .font-sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .font-head { font-family: 'Space Grotesk', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; }
+  </style>
+
+  <!-- Container Base -->
+  <rect width="1200" height="240" rx="14" fill="url(#aboutBg)" stroke="url(#aboutBorder)" stroke-width="1" />
+
+  <!-- Top Window Header Bar -->
+  <path d="M 0 14 C 0 6.268 6.268 0 14 0 L 1186 0 C 1193.732 0 1200 6.268 1200 14 L 1200 38 L 0 38 Z" fill="#111827" />
+  <line x1="0" y1="38" x2="1200" y2="38" stroke="#202938" stroke-width="1" />
+  
+  <!-- Window Controls -->
+  <circle cx="28" cy="19" r="4.5" fill="#EF4444" opacity="0.8" />
+  <circle cx="44" cy="19" r="4.5" fill="#F59E0B" opacity="0.8" />
+  <circle cx="60" cy="19" r="4.5" fill="#10B981" opacity="0.8" />
+  
+  <text x="86" y="23" fill="#64748B" class="font-mono" font-size="11" letter-spacing="1">ARCHITECT.SPEC // S PRAVEEN KUMAR</text>
+  <text x="1170" y="23" text-anchor="end" fill="#67E8F9" class="font-mono" font-size="10.5" letter-spacing="1.5">● THREE.JS COMPATIBLE</text>
+
+  <!-- 3 Inner Strategic Cards -->
+  <!-- Card 1: Academic & Affiliation -->
+  <g transform="translate(24, 52)">
+    <rect width="365" height="168" rx="10" fill="url(#innerBg)" stroke="#202938" stroke-width="1" />
+    <text x="18" y="26" fill="#67E8F9" class="font-mono" font-size="10.5" letter-spacing="1.5">01 // ACADEMIC FOUNDATION</text>
+    <text x="18" y="52" fill="#F5F7FA" class="font-head" font-size="16">Sathyabama Institute</text>
+    <text x="18" y="70" fill="#9CA3AF" class="font-sans" font-size="12">of Science &amp; Technology, Chennai</text>
+    
+    <rect x="18" y="86" width="329" height="1" fill="#202938" />
+    
+    <text x="18" y="108" fill="#818CF8" class="font-mono" font-size="11.5">B.E. Computer Science (AI &amp; ML)</text>
+    <text x="18" y="126" fill="#64748B" class="font-mono" font-size="11">Cohort: 2024 – 2028 · 4-Year B.E. Program</text>
+    
+    <g transform="translate(18, 138)">
+      <rect width="180" height="20" rx="4" fill="#080B10" stroke="#202938" stroke-width="0.8" />
+      <text x="10" y="14" fill="#67E8F9" class="font-mono" font-size="9.5">PRESIDENT, MICROSOFT CLUB</text>
+    </g>
+  </g>
+
+  <!-- Card 2: Core Focus Areas -->
+  <g transform="translate(417, 52)">
+    <rect width="365" height="168" rx="10" fill="url(#innerBg)" stroke="#202938" stroke-width="1" />
+    <text x="18" y="26" fill="#818CF8" class="font-mono" font-size="10.5" letter-spacing="1.5">02 // CORE DOMAIN RADAR</text>
+    
+    <g transform="translate(18, 42)">
+      <circle cx="4" cy="6" r="3" fill="#67E8F9" />
+      <text x="14" y="10" fill="#F5F7FA" class="font-sans" font-size="12.5" font-weight="600">Autonomous AI &amp; Agent Systems</text>
+      <text x="14" y="24" fill="#9CA3AF" class="font-sans" font-size="11">LangChain, LangGraph, Multi-Agent loops</text>
+    </g>
+
+    <g transform="translate(18, 78)">
+      <circle cx="4" cy="6" r="3" fill="#818CF8" />
+      <text x="14" y="10" fill="#F5F7FA" class="font-sans" font-size="12.5" font-weight="600">Enterprise RAG &amp; Vector Search</text>
+      <text x="14" y="24" fill="#9CA3AF" class="font-sans" font-size="11">Pinecone, FAISS, Dense Embeddings, Rerankers</text>
+    </g>
+
+    <g transform="translate(18, 114)">
+      <circle cx="4" cy="6" r="3" fill="#A78BFA" />
+      <text x="14" y="10" fill="#F5F7FA" class="font-sans" font-size="12.5" font-weight="600">High-Throughput Full-Stack</text>
+      <text x="14" y="24" fill="#9CA3AF" class="font-sans" font-size="11">FastAPI, Next.js, TypeScript, Docker, SQL</text>
+    </g>
+  </g>
+
+  <!-- Card 3: Engineering Philosophy -->
+  <g transform="translate(810, 52)">
+    <rect width="365" height="168" rx="10" fill="url(#innerBg)" stroke="#202938" stroke-width="1" />
+    <text x="18" y="26" fill="#A78BFA" class="font-mono" font-size="10.5" letter-spacing="1.5">03 // ENGINEERING MANIFESTO</text>
+    <text x="18" y="58" fill="#F5F7FA" class="font-head" font-size="15">Thoughtful Engineering</text>
+    
+    <text x="18" y="82" fill="#9CA3AF" class="font-sans" font-size="11.5">
+      <tspan x="18" dy="0">"Building intelligent systems with thoughtful</tspan>
+      <tspan x="18" dy="16">engineering and intentional design. Bridging</tspan>
+      <tspan x="18" dy="16">emerging AI models with production backend</tspan>
+      <tspan x="18" dy="16">stability and calm user interfaces."</tspan>
+    </text>
+
+    <g transform="translate(18, 138)">
+      <rect width="329" height="20" rx="4" fill="#080B10" stroke="#202938" stroke-width="0.8" />
+      <text x="12" y="14" fill="#64748B" class="font-mono" font-size="9.5">DESIGN  →  APIS  →  AI INTEGRATION  →  SHIP</text>
+    </g>
+  </g>
+</svg>

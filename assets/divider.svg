@@ -1,13 +1,13 @@
 <svg width="1200" height="24" viewBox="0 0 1200 24" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="divGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#080B12" stop-opacity="0" />
-      <stop offset="15%" stop-color="#253047" stop-opacity="0.4" />
+      <stop offset="0%" stop-color="#080B10" stop-opacity="0" />
+      <stop offset="15%" stop-color="#202938" stop-opacity="0.4" />
       <stop offset="42%" stop-color="#818CF8" stop-opacity="0.6" />
-      <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#67E8F9" stop-opacity="0.9" />
       <stop offset="58%" stop-color="#818CF8" stop-opacity="0.6" />
-      <stop offset="85%" stop-color="#253047" stop-opacity="0.4" />
-      <stop offset="100%" stop-color="#080B12" stop-opacity="0" />
+      <stop offset="85%" stop-color="#202938" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#080B10" stop-opacity="0" />
     </linearGradient>
     <filter id="divGlow" x="-20%" y="-200%" width="140%" height="500%">
       <feGaussianBlur stdDeviation="3" result="blur" />
@@ -17,12 +17,10 @@
       </feMerge>
     </filter>
   </defs>
-  <!-- Background Conduit -->
   <line x1="40" y1="12" x2="1160" y2="12" stroke="url(#divGrad)" stroke-width="1.2" />
-  <!-- Center Accent Geometry -->
   <g transform="translate(600, 12)" filter="url(#divGlow)">
-    <rect x="-60" y="-1" width="120" height="2" fill="#22D3EE" opacity="0.8" />
-    <polygon points="0,-5 5,0 0,5 -5,0" fill="#22D3EE" />
+    <rect x="-60" y="-1" width="120" height="2" fill="#67E8F9" opacity="0.8" />
+    <polygon points="0,-5 5,0 0,5 -5,0" fill="#67E8F9" />
     <circle cx="0" cy="0" r="1.5" fill="#FFFFFF" />
     <circle cx="-90" cy="0" r="2" fill="#818CF8" opacity="0.6" />
     <circle cx="90" cy="0" r="2" fill="#818CF8" opacity="0.6" />

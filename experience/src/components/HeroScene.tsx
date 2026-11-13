@@ -170,3 +170,4 @@ export const HeroScene: React.FC = () => {
     </div>
   );
 };
+

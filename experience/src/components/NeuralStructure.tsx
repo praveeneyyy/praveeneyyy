@@ -103,3 +103,4 @@ export const NeuralStructure: React.FC<NeuralStructureProps> = ({
     </group>
   );
 };
+

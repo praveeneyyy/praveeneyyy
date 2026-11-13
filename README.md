@@ -183,7 +183,6 @@ My engineering perspective spans the <b>entire development lifecycle</b>:
       </p>
     </td>
   </tr>
-
   <!-- ROW 2: CLICKITY CLICK & JARVIS AI -->
   <tr>
     <td width="50%" align="left" valign="top">
@@ -213,7 +212,6 @@ My engineering perspective spans the <b>entire development lifecycle</b>:
       </p>
     </td>
   </tr>
-
   <!-- ROW 3: ORION 1.0 & GESTURE CONTROLLED MOUSE -->
   <tr>
     <td width="50%" align="left" valign="top">
@@ -432,22 +430,17 @@ My engineering perspective spans the <b>entire development lifecycle</b>:
 
 <table width="100%">
   <tr>
-    <!-- STATS CARD -->
     <td width="50%" align="center" valign="middle">
       <a href="https://github.com/praveeneyyy">
         <img width="100%" src="https://github-stats-extended.vercel.app/api?username=praveeneyyy&show_icons=true&count_private=true&include_all_commits=true&bg_color=080B10&title_color=67E8F9&icon_color=818CF8&text_color=F5F7FA&border_color=202938" alt="Praveen's GitHub Statistics" />
       </a>
     </td>
-
-    <!-- TOP LANGUAGES CARD -->
     <td width="50%" align="center" valign="middle">
       <a href="https://github.com/praveeneyyy">
         <img width="100%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=praveeneyyy&layout=compact&bg_color=080B10&title_color=67E8F9&icon_color=818CF8&text_color=F5F7FA&border_color=202938" alt="Top Languages Breakdown" />
       </a>
     </td>
   </tr>
-
-  <!-- STREAK STATS CARD -->
   <tr>
     <td colspan="2" align="center" valign="middle">
       <a href="https://github.com/praveeneyyy">

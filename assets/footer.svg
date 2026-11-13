@@ -1,0 +1,136 @@
+<svg width="1200" height="140" viewBox="0 0 1200 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="footerBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04060d" />
+      <stop offset="50%" stop-color="#070c18" />
+      <stop offset="100%" stop-color="#030408" />
+    </linearGradient>
+
+    <!-- Border Gradient with Shimmer -->
+    <linearGradient id="footerBorderShimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.4" />
+      <stop offset="25%" stop-color="#22d3ee" stop-opacity="0.8">
+        <animate attributeName="offset" values="0; 0.75; 0" dur="9s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#6C63FF" stop-opacity="0.75">
+        <animate attributeName="offset" values="0.25; 1; 0.25" dur="9s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.4" />
+    </linearGradient>
+
+    <!-- Wave 1 Gradient (Cyan/Blue) -->
+    <linearGradient id="waveCyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0e75b6" stop-opacity="0.22" />
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#6C63FF" stop-opacity="0.12" />
+    </linearGradient>
+
+    <!-- Wave 2 Gradient (Violet) -->
+    <linearGradient id="waveVioletGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6C63FF" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#0e75b6" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Beacon Glow Filter -->
+    <filter id="footBeaconGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .foot-mono {
+      font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+    }
+    .foot-sans {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+  </style>
+
+  <!-- Container Base -->
+  <rect width="1200" height="140" rx="18" fill="url(#footerBgGrad)" />
+
+  <!-- Animated Floating Aurora Waves -->
+  <path fill="url(#waveCyanGrad)" d="M 0 35 C 300 15, 600 50, 900 25 C 1050 15, 1150 30, 1200 28 L 1200 0 L 0 0 Z">
+    <animate attributeName="d"
+      values="
+        M 0 35 C 300 15, 600 50, 900 25 C 1050 15, 1150 30, 1200 28 L 1200 0 L 0 0 Z;
+        M 0 25 C 300 45, 600 15, 900 40 C 1050 30, 1150 15, 1200 20 L 1200 0 L 0 0 Z;
+        M 0 35 C 300 15, 600 50, 900 25 C 1050 15, 1150 30, 1200 28 L 1200 0 L 0 0 Z
+      "
+      dur="12s"
+      repeatCount="indefinite" />
+  </path>
+
+  <path fill="url(#waveVioletGrad)" d="M 0 20 C 350 45, 650 10, 950 35 C 1100 25, 1180 15, 1200 18 L 1200 0 L 0 0 Z">
+    <animate attributeName="d"
+      values="
+        M 0 20 C 350 45, 650 10, 950 35 C 1100 25, 1180 15, 1200 18 L 1200 0 L 0 0 Z;
+        M 0 38 C 350 15, 650 40, 950 15 C 1100 35, 1180 28, 1200 30 L 1200 0 L 0 0 Z;
+        M 0 20 C 350 45, 650 10, 950 35 C 1100 25, 1180 15, 1200 18 L 1200 0 L 0 0 Z
+      "
+      dur="15s"
+      repeatCount="indefinite" />
+  </path>
+
+  <!-- Crest Contour Accent Line -->
+  <path stroke="#22d3ee" stroke-opacity="0.3" stroke-width="1" fill="none"
+    d="M 0 35 C 300 15, 600 50, 900 25 C 1050 15, 1150 30, 1200 28">
+    <animate attributeName="d"
+      values="
+        M 0 35 C 300 15, 600 50, 900 25 C 1050 15, 1150 30, 1200 28;
+        M 0 25 C 300 45, 600 15, 900 40 C 1050 30, 1150 15, 1200 20;
+        M 0 35 C 300 15, 600 50, 900 25 C 1050 15, 1150 30, 1200 28
+      "
+      dur="12s"
+      repeatCount="indefinite" />
+  </path>
+
+  <!-- Ambient Star Embers in Footer -->
+  <circle cx="180" cy="85" r="1" fill="#22d3ee" opacity="0.5"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="3s" repeatCount="indefinite" /></circle>
+  <circle cx="1020" cy="80" r="1" fill="#6C63FF" opacity="0.5"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="3.5s" repeatCount="indefinite" /></circle>
+
+  <!-- Center Content Block -->
+  <!-- Name & Status Beacon -->
+  <g transform="translate(600, 52)">
+    <circle cx="-120" cy="-2" r="3.5" fill="#22d3ee" filter="url(#footBeaconGlow)">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text class="foot-sans" text-anchor="middle" font-size="14.5" font-weight="700" letter-spacing="2.5" fill="#F8FAFC">
+      PRAVEEN KUMAR
+    </text>
+    <circle cx="120" cy="-2" r="3.5" fill="#6C63FF" filter="url(#footBeaconGlow)">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Manifesto Motto -->
+  <g transform="translate(600, 82)">
+    <text class="foot-mono" text-anchor="middle" font-size="11.5" font-weight="500" letter-spacing="1.5" fill="#94A3B8">
+      ✦ <tspan fill="#22D3EE">ENGINEERED FOR INTELLIGENCE</tspan> • <tspan fill="#F1F5F9">ARCHITECTED FOR SCALE</tspan> ✦
+    </text>
+  </g>
+
+  <!-- Location & Availability Tag -->
+  <g transform="translate(600, 108)">
+    <text class="foot-mono" text-anchor="middle" font-size="10.5" font-weight="400" letter-spacing="1" fill="#64748B">
+      Chennai, India  •  Open for Collaboration &amp; High-Impact Opportunities
+    </text>
+  </g>
+
+  <!-- Corner Trim Brackets -->
+  <g stroke="#22d3ee" stroke-width="1.2" stroke-opacity="0.3" fill="none">
+    <path d="M 20 28 L 20 18 L 30 18" />
+    <path d="M 1180 28 L 1180 18 L 1170 18" />
+    <path d="M 20 112 L 20 122 L 30 122" />
+    <path d="M 1180 112 L 1180 122 L 1170 122" />
+  </g>
+
+  <!-- Outer Shimmer Border -->
+  <rect x="1" y="1" width="1198" height="138" rx="17" fill="none" stroke="url(#footerBorderShimmer)" stroke-width="1.5" />
+</svg>

@@ -1,0 +1,135 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Card Background Gradient -->
+    <linearGradient id="aboutCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04060d" />
+      <stop offset="50%" stop-color="#080e1e" />
+      <stop offset="100%" stop-color="#030408" />
+    </linearGradient>
+
+    <!-- Moving Shimmer Border Gradient -->
+    <linearGradient id="aboutShimmerBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.4" />
+      <stop offset="25%" stop-color="#22d3ee" stop-opacity="0.9">
+        <animate attributeName="offset" values="0; 0.75; 0" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#6C63FF" stop-opacity="0.8">
+        <animate attributeName="offset" values="0.25; 1; 0.25" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.4" />
+    </linearGradient>
+
+    <!-- Aurora Glow Pools -->
+    <radialGradient id="aboutGlowCyan" cx="90%" cy="15%" r="60%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.14" />
+      <stop offset="60%" stop-color="#0e75b6" stop-opacity="0.03" />
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="aboutGlowViolet" cx="10%" cy="85%" r="60%">
+      <stop offset="0%" stop-color="#6C63FF" stop-opacity="0.16" />
+      <stop offset="60%" stop-color="#6C63FF" stop-opacity="0.03" />
+      <stop offset="100%" stop-color="#6C63FF" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Subtle Grid Pattern -->
+    <pattern id="aboutGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#22d3ee" stroke-width="0.6" stroke-opacity="0.03" />
+    </pattern>
+
+    <!-- Beacon Glow Filter -->
+    <filter id="aboutBeaconGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .card-mono {
+      font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+    }
+    .card-sans {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+  </style>
+
+  <!-- Card Base -->
+  <rect width="1200" height="260" rx="18" fill="url(#aboutCardBg)" />
+  <rect width="1200" height="260" rx="18" fill="url(#aboutGlowCyan)" />
+  <rect width="1200" height="260" rx="18" fill="url(#aboutGlowViolet)" />
+  <rect width="1200" height="260" rx="18" fill="url(#aboutGrid)" />
+
+  <!-- Top Window Header Bar -->
+  <g transform="translate(36, 36)">
+    <!-- Terminal Window Dots -->
+    <circle cx="8" cy="-2" r="5" fill="#ef4444" opacity="0.75" />
+    <circle cx="26" cy="-2" r="5" fill="#eab308" opacity="0.75" />
+    <circle cx="44" cy="-2" r="5" fill="#22c55e" opacity="0.75" />
+
+    <!-- Terminal Identifier -->
+    <text class="card-mono" x="72" y="2" font-size="12" font-weight="600" fill="#22d3ee" letter-spacing="1.5">
+      // 01. ACADEMIC &amp; RESEARCH PROFILE
+    </text>
+
+    <!-- Institution Chip -->
+    <rect x="750" y="-14" width="375" height="26" rx="13" fill="#0b1426" stroke="#22d3ee" stroke-width="0.8" stroke-opacity="0.35" />
+    <circle cx="768" cy="-1" r="3.5" fill="#22d3ee" filter="url(#aboutBeaconGlow)">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text class="card-mono" x="782" y="3" font-size="10.5" font-weight="500" fill="#94A3B8" letter-spacing="0.8">
+      SATHYABAMA INSTITUTE OF SCIENCE &amp; TECH
+    </text>
+  </g>
+
+  <!-- Main Headline -->
+  <g transform="translate(36, 82)">
+    <text class="card-sans" x="0" y="0" font-size="22" font-weight="700" fill="#F8FAFC" letter-spacing="0.5">
+      Computer Software Engineering Student <tspan fill="#6C63FF">&amp;</tspan> Full-Stack AI Systems Architect
+    </text>
+  </g>
+
+  <!-- Narrative Lines -->
+  <g transform="translate(36, 116)">
+    <!-- Line 1 -->
+    <circle cx="4" cy="-5" r="2.5" fill="#22d3ee" />
+    <text class="card-sans" x="18" y="0" font-size="14" font-weight="400" fill="#CBD5E1">
+      Undergraduate scholar at <tspan fill="#F8FAFC" font-weight="600">Sathyabama Institute of Science and Technology, Chennai</tspan>, building intelligent software using AI &amp; modern engineering.
+    </text>
+
+    <!-- Line 2 -->
+    <circle cx="4" cy="22" r="2.5" fill="#6C63FF" />
+    <text class="card-sans" x="18" y="27" font-size="14" font-weight="400" fill="#CBD5E1">
+      Architecting autonomous <tspan fill="#22D3EE" font-weight="600">Multi-Agent AI Systems (LangGraph)</tspan>, <tspan fill="#A5F3FC" font-weight="600">Enterprise RAG Pipelines</tspan>, and intelligent LLM workflows.
+    </text>
+
+    <!-- Line 3 -->
+    <circle cx="4" cy="49" r="2.5" fill="#0e75b6" />
+    <text class="card-sans" x="18" y="54" font-size="14" font-weight="400" fill="#CBD5E1">
+      Engineering high-throughput <tspan fill="#F8FAFC" font-weight="600">FastAPI microservices</tspan>, modern <tspan fill="#F8FAFC" font-weight="600">Next.js full-stack interfaces</tspan>, and resilient containerized deployments.
+    </text>
+  </g>
+
+  <!-- Core Pillar Badges at Bottom -->
+  <g transform="translate(36, 218)">
+    <rect x="0" y="-12" width="190" height="26" rx="6" fill="#0d182e" stroke="#22d3ee" stroke-width="0.8" stroke-opacity="0.4" />
+    <text class="card-mono" x="14" y="5" font-size="11" font-weight="500" fill="#22d3ee">🤖 Multi-Agent Systems</text>
+
+    <rect x="202" y="-12" width="185" height="26" rx="6" fill="#0d182e" stroke="#6C63FF" stroke-width="0.8" stroke-opacity="0.4" />
+    <text class="card-mono" x="214" y="5" font-size="11" font-weight="500" fill="#c4b5fd">📚 RAG Architectures</text>
+
+    <rect x="399" y="-12" width="185" height="26" rx="6" fill="#0d182e" stroke="#0e75b6" stroke-width="0.8" stroke-opacity="0.4" />
+    <text class="card-mono" x="411" y="5" font-size="11" font-weight="500" fill="#67e8f9">⚡ FastAPI &amp; Node APIs</text>
+
+    <rect x="596" y="-12" width="185" height="26" rx="6" fill="#0d182e" stroke="#22d3ee" stroke-width="0.8" stroke-opacity="0.4" />
+    <text class="card-mono" x="608" y="5" font-size="11" font-weight="500" fill="#e2e8f0">🌐 Next.js &amp; TypeScript</text>
+
+    <rect x="793" y="-12" width="175" height="26" rx="6" fill="#0d182e" stroke="#6C63FF" stroke-width="0.8" stroke-opacity="0.4" />
+    <text class="card-mono" x="805" y="5" font-size="11" font-weight="500" fill="#c4b5fd">☁️ Docker &amp; Cloud</text>
+  </g>
+
+  <!-- Exterior Shimmer Border -->
+  <rect x="1" y="1" width="1198" height="258" rx="17" fill="none" stroke="url(#aboutShimmerBorder)" stroke-width="1.5" />
+</svg>

@@ -1,0 +1,250 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Space Gradient -->
+    <linearGradient id="spaceGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04060d" />
+      <stop offset="35%" stop-color="#070c18" />
+      <stop offset="70%" stop-color="#091024" />
+      <stop offset="100%" stop-color="#030408" />
+    </linearGradient>
+
+    <!-- Animated Shimmer Border Gradient -->
+    <linearGradient id="headerBorderShimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.4" />
+      <stop offset="25%" stop-color="#22d3ee" stop-opacity="0.85">
+        <animate attributeName="offset" values="0; 0.75; 0" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#6C63FF" stop-opacity="0.8">
+        <animate attributeName="offset" values="0.25; 1; 0.25" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="75%" stop-color="#0e75b6" stop-opacity="0.6">
+        <animate attributeName="offset" values="0.5; 0.2; 0.5" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.4" />
+    </linearGradient>
+
+    <!-- Name Text Luminous Gradient -->
+    <linearGradient id="nameTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="40%" stop-color="#F8FAFC" />
+      <stop offset="75%" stop-color="#67E8F9" />
+      <stop offset="100%" stop-color="#22D3EE" />
+    </linearGradient>
+
+    <!-- Aurora Radial Fluid Clouds -->
+    <radialGradient id="auroraViolet" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6C63FF" stop-opacity="0.6" />
+      <stop offset="45%" stop-color="#6C63FF" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#6C63FF" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="auroraCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.55" />
+      <stop offset="50%" stop-color="#0E75B6" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="auroraBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0E75B6" stop-opacity="0.6" />
+      <stop offset="55%" stop-color="#0E75B6" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#0E75B6" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="auroraCenterGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.3" />
+      <stop offset="60%" stop-color="#6C63FF" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#04060D" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Gaussian Blurs & Filters -->
+    <filter id="auroraFluidBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="68" result="blur" />
+    </filter>
+
+    <filter id="titleBloom" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="7" result="glow" />
+      <feMerge>
+        <feMergeNode in="glow" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="beaconBloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Technical Grid Pattern -->
+    <pattern id="headerTechGrid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#22D3EE" stroke-width="0.75" stroke-opacity="0.035" />
+      <circle cx="0" cy="0" r="1" fill="#22D3EE" fill-opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <style>
+    .font-mono {
+      font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+    }
+    .font-sans {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    }
+  </style>
+
+  <!-- Deep Base Canvas -->
+  <rect width="1200" height="300" rx="18" fill="url(#spaceGrad)" />
+  <rect width="1200" height="300" rx="18" fill="url(#headerTechGrid)" />
+
+  <!-- Radar Coordinate Rings (Ambient Center Horizon) -->
+  <g transform="translate(600, 150)" stroke="#22D3EE" stroke-opacity="0.03" fill="none">
+    <circle r="140" stroke-dasharray="3 6" />
+    <circle r="220" stroke-dasharray="4 8" />
+    <circle r="320" stroke-dasharray="6 12" />
+  </g>
+
+  <!-- Aurora Fluid Clouds with Organic Looping Motion -->
+  <g filter="url(#auroraFluidBlur)">
+    <!-- Aurora Blob 1: Deep Violet (Left Wing) -->
+    <ellipse cx="320" cy="115" rx="270" ry="145" fill="url(#auroraViolet)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 85,35; -45,55; 0,0"
+        dur="18s" repeatCount="indefinite" />
+      <animate attributeName="rx" values="270;320;250;270" dur="18s" repeatCount="indefinite" />
+      <animate attributeName="ry" values="145;185;130;145" dur="18s" repeatCount="indefinite" />
+    </ellipse>
+
+    <!-- Aurora Blob 2: Electric Ocean Blue (Center-Right Drift) -->
+    <ellipse cx="690" cy="165" rx="330" ry="155" fill="url(#auroraBlue)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; -75,-45; 65,-25; 0,0"
+        dur="22s" repeatCount="indefinite" />
+      <animate attributeName="rx" values="330;280;350;330" dur="22s" repeatCount="indefinite" />
+      <animate attributeName="ry" values="155;195;135;155" dur="22s" repeatCount="indefinite" />
+    </ellipse>
+
+    <!-- Aurora Blob 3: Bright Cyan (Right Wing Orbit) -->
+    <ellipse cx="940" cy="125" rx="250" ry="135" fill="url(#auroraCyan)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; -95,45; -35,-35; 0,0"
+        dur="16s" repeatCount="indefinite" />
+      <animate attributeName="rx" values="250;300;220;250" dur="16s" repeatCount="indefinite" />
+      <animate attributeName="ry" values="135;165;115;135" dur="16s" repeatCount="indefinite" />
+    </ellipse>
+
+    <!-- Aurora Blob 4: Soft Central Aura -->
+    <ellipse cx="600" cy="140" rx="380" ry="120" fill="url(#auroraCenterGlow)">
+      <animate attributeName="rx" values="380;420;360;380" dur="14s" repeatCount="indefinite" />
+      <animate attributeName="ry" values="120;140;110;120" dur="14s" repeatCount="indefinite" />
+    </ellipse>
+  </g>
+
+  <!-- Twinkling Starfield & Chromatic Sparkles -->
+  <g id="starfield">
+    <!-- Depth 1: Micro-stars -->
+    <circle cx="85" cy="50" r="1" fill="#FFFFFF"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="3.1s" repeatCount="indefinite" /></circle>
+    <circle cx="160" cy="195" r="0.8" fill="#67E8F9"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.2s" repeatCount="indefinite" begin="0.4s" /></circle>
+    <circle cx="230" cy="75" r="1.2" fill="#FFFFFF"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="2.8s" repeatCount="indefinite" begin="1.1s" /></circle>
+    <circle cx="300" cy="245" r="0.9" fill="#A5F3FC"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.9s" repeatCount="indefinite" begin="0.7s" /></circle>
+    <circle cx="440" cy="40" r="1.1" fill="#FFFFFF"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.9s" repeatCount="indefinite" begin="1.4s" /></circle>
+    <circle cx="570" cy="65" r="0.9" fill="#C4B5FD"><animate attributeName="opacity" values="0.1;0.7;0.1" dur="3.4s" repeatCount="indefinite" begin="0.2s" /></circle>
+    <circle cx="730" cy="35" r="1.2" fill="#FFFFFF"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="4.5s" repeatCount="indefinite" begin="2.0s" /></circle>
+    <circle cx="820" cy="80" r="0.8" fill="#67E8F9"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="3.0s" repeatCount="indefinite" begin="1.6s" /></circle>
+    <circle cx="950" cy="55" r="1.2" fill="#FFFFFF"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.7s" repeatCount="indefinite" begin="0.3s" /></circle>
+    <circle cx="1030" cy="185" r="0.9" fill="#A5F3FC"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="3.5s" repeatCount="indefinite" begin="1.0s" /></circle>
+    <circle cx="1120" cy="85" r="1.1" fill="#FFFFFF"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="4.1s" repeatCount="indefinite" begin="0.8s" /></circle>
+    <circle cx="1150" cy="225" r="0.8" fill="#C4B5FD"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.2s" repeatCount="indefinite" begin="1.7s" /></circle>
+    <circle cx="140" cy="265" r="1.0" fill="#FFFFFF"><animate attributeName="opacity" values="0.1;0.7;0.1" dur="4.5s" repeatCount="indefinite" begin="2.3s" /></circle>
+    <circle cx="880" cy="255" r="1.2" fill="#FFFFFF"><animate attributeName="opacity" values="0.2;0.95;0.2" dur="3.8s" repeatCount="indefinite" begin="0.1s" /></circle>
+
+    <!-- Depth 2: Multi-Point Chromatic Sparkles -->
+    <g transform="translate(125, 85)">
+      <path d="M 0 -8 Q 0 0 8 0 Q 0 0 0 8 Q 0 0 -8 0 Q 0 0 0 -8 Z" fill="#22D3EE" opacity="0.85">
+        <animateTransform attributeName="transform" type="scale" values="0.6;1.25;0.6" dur="4s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.3;0.95;0.3" dur="4s" repeatCount="indefinite" />
+      </path>
+    </g>
+    <g transform="translate(1085, 65)">
+      <path d="M 0 -9 Q 0 0 9 0 Q 0 0 0 9 Q 0 0 -9 0 Q 0 0 0 -9 Z" fill="#67E8F9" opacity="0.8">
+        <animateTransform attributeName="transform" type="scale" values="0.7;1.3;0.7" dur="5.2s" repeatCount="indefinite" begin="1s" />
+        <animate attributeName="opacity" values="0.25;0.9;0.25" dur="5.2s" repeatCount="indefinite" begin="1s" />
+      </path>
+    </g>
+    <g transform="translate(995, 235)">
+      <path d="M 0 -7 Q 0 0 7 0 Q 0 0 0 7 Q 0 0 -7 0 Q 0 0 0 -7 Z" fill="#C4B5FD" opacity="0.75">
+        <animateTransform attributeName="transform" type="scale" values="0.5;1.15;0.5" dur="4.4s" repeatCount="indefinite" begin="2s" />
+        <animate attributeName="opacity" values="0.2;0.85;0.2" dur="4.4s" repeatCount="indefinite" begin="2s" />
+      </path>
+    </g>
+  </g>
+
+  <!-- Technical HUD Coordinate Labels -->
+  <g class="font-mono" font-size="9" font-weight="500" fill="#22D3EE" fill-opacity="0.4" letter-spacing="1">
+    <text x="36" y="44">LOC // 13.0827° N, 80.2707° E</text>
+    <text x="1164" y="44" text-anchor="end">SYS // AGENTIC_KERNEL_V4</text>
+  </g>
+
+  <!-- Precision Corner HUD Markers -->
+  <g stroke="#22D3EE" stroke-width="1.5" stroke-opacity="0.35" fill="none">
+    <path d="M 22 36 L 22 22 L 36 22" />
+    <path d="M 1178 36 L 1178 22 L 1164 22" />
+    <path d="M 22 264 L 22 278 L 36 278" />
+    <path d="M 1178 264 L 1178 278 L 1164 278" />
+    <!-- Reticle Crosshairs -->
+    <path d="M 600 16 L 600 24 M 596 20 L 604 20" stroke-opacity="0.3" stroke-width="1" />
+    <path d="M 600 276 L 600 284 M 596 280 L 604 280" stroke-opacity="0.3" stroke-width="1" />
+  </g>
+
+  <!-- Top Glassmorphic Terminal Status Pill -->
+  <g transform="translate(600, 68)">
+    <rect x="-195" y="-14" width="390" height="28" rx="14" fill="#081022" fill-opacity="0.82" stroke="#22D3EE" stroke-width="1" stroke-opacity="0.35" />
+    
+    <!-- Live Breathing Beacon -->
+    <circle cx="-168" cy="0" r="4.5" fill="#22D3EE" filter="url(#beaconBloom)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="r" values="3.5;4.8;3.5" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="-168" cy="0" r="8" fill="none" stroke="#22D3EE" stroke-width="0.8">
+      <animate attributeName="r" values="4;11;4" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.7;0;0.7" dur="2s" repeatCount="indefinite" />
+    </circle>
+
+    <text class="font-mono" x="-148" y="4" font-size="11.5" font-weight="600" fill="#94A3B8" letter-spacing="1.2">
+      SYSTEM STATUS: <tspan fill="#22D3EE">ONLINE</tspan> // <tspan fill="#F1F5F9">AI SYSTEMS ARCHITECT</tspan>
+    </text>
+  </g>
+
+  <!-- Name: PRAVEEN KUMAR with Ambient Luminous Bloom -->
+  <g transform="translate(600, 155)">
+    <!-- Ambient Glow Shadow Layer -->
+    <text class="font-sans" text-anchor="middle" y="0" font-size="52" font-weight="800" letter-spacing="4" fill="#22D3EE" opacity="0.35" filter="url(#titleBloom)">
+      PRAVEEN KUMAR
+    </text>
+    <!-- Sharp Foreground Typography -->
+    <text class="font-sans" text-anchor="middle" y="0" font-size="52" font-weight="800" letter-spacing="4" fill="url(#nameTextGrad)">
+      PRAVEEN KUMAR
+    </text>
+  </g>
+
+  <!-- Tagline Banner -->
+  <g transform="translate(600, 206)">
+    <text class="font-mono" text-anchor="middle" y="0" font-size="15" font-weight="500" letter-spacing="1.8" fill="#CBD5E1">
+      <tspan fill="#22D3EE">AI/ML Engineer</tspan>
+      <tspan fill="#6C63FF"> • </tspan>
+      <tspan fill="#F8FAFC">Full-Stack Developer</tspan>
+      <tspan fill="#6C63FF"> • </tspan>
+      <tspan fill="#22D3EE">Building Intelligent AI Systems</tspan>
+    </text>
+  </g>
+
+  <!-- Architecture Specialization Track -->
+  <g transform="translate(600, 245)">
+    <text class="font-mono" text-anchor="middle" y="0" font-size="11.5" font-weight="500" letter-spacing="1.5" fill="#64748B">
+      [ <tspan fill="#94A3B8">LANGGRAPH</tspan> • <tspan fill="#94A3B8">MULTI-AGENT SYSTEMS</tspan> • <tspan fill="#94A3B8">ENTERPRISE RAG</tspan> • <tspan fill="#94A3B8">FASTAPI</tspan> • <tspan fill="#94A3B8">NEXT.JS</tspan> ]
+    </text>
+  </g>
+
+  <!-- Exterior Double Border with Shimmer -->
+  <rect x="1" y="1" width="1198" height="298" rx="17" fill="none" stroke="url(#headerBorderShimmer)" stroke-width="1.5" />
+</svg>

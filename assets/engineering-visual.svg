@@ -1,0 +1,124 @@
+<svg width="1200" height="230" viewBox="0 0 1200 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="engCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D111B" />
+      <stop offset="100%" stop-color="#080B12" />
+    </linearGradient>
+    <linearGradient id="engBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#253047" />
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#253047" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-mono { font-family: 'Geist Mono', 'JetBrains Mono', 'Courier New', monospace; }
+    .font-sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .font-head { font-family: 'Space Grotesk', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; }
+  </style>
+
+  <rect width="1200" height="230" rx="14" fill="url(#engCardBg)" stroke="url(#engBorder)" stroke-width="1" />
+
+  <!-- Section Header -->
+  <g transform="translate(28, 30)">
+    <rect width="8" height="8" rx="2" fill="#818CF8" />
+    <text x="18" y="8" fill="#818CF8" class="font-mono" font-size="11" letter-spacing="1.5">STACK TAXONOMY // 02 · FULL-STACK &amp; SYSTEMS ARCHITECTURE</text>
+  </g>
+
+  <!-- 4 Systems Pillars -->
+  <!-- Pillar 1: Frontend Architecture -->
+  <g transform="translate(28, 52)">
+    <rect width="270" height="154" rx="8" fill="#121827" stroke="#253047" stroke-width="1" />
+    <text x="16" y="26" fill="#22D3EE" class="font-head" font-size="13.5">Frontend Architecture</text>
+    <text x="16" y="44" fill="#94A3B8" class="font-sans" font-size="11">Reactive, accessible UI</text>
+
+    <g transform="translate(16, 60)">
+      <rect y="0" width="105" height="20" rx="4" fill="#080B12" stroke="#253047" stroke-width="0.8" />
+      <text x="8" y="14" fill="#F1F5F9" class="font-mono" font-size="10">React 19</text>
+
+      <rect x="115" y="0" width="105" height="20" rx="4" fill="#080B12" stroke="#253047" stroke-width="0.8" />
+      <text x="123" y="14" fill="#F1F5F9" class="font-mono" font-size="10">Next.js 14/16</text>
+
+      <rect y="26" width="105" height="20" rx="4" fill="#080B12" stroke="#253047" stroke-width="0.8" />
+      <text x="8" y="40" fill="#F1F5F9" class="font-mono" font-size="10">TypeScript</text>
+
+      <rect x="115" y="26" width="105" height="20" rx="4" fill="#080B12" stroke="#253047" stroke-width="0.8" />
+      <text x="123" y="40" fill="#F1F5F9" class="font-mono" font-size="10">Tailwind CSS</text>
+
+      <rect y="52" width="220" height="20" rx="4" fill="#080B12" stroke="#253047" stroke-width="0.8" />
+      <text x="8" y="66" fill="#67E8F9" class="font-mono" font-size="9.5">VITE · FRAMER MOTION</text>
+    </g>
+  </g>
+
+  <!-- Pillar 2: Backend & Microservices -->
+  <g transform="translate(318, 52)">
+    <rect width="270" height="154" rx="8" fill="#121827" stroke="#253047" stroke-width="1" />
+    <text x="16" y="26" fill="#818CF8" class="font-head" font-size="13.5">Backend &amp; APIs</text>
+    <text x="16" y="44" fill="#94A3B8" class="font-sans" font-size="11">Async REST &amp; high throughput</text>
+
+    <g transform="translate(16, 60)">
+      <rect y="0" width="105" height="20" rx="4" fill="#080B12" stroke="#253047" stroke-width="0.8" />
+      <text x="8" y="14" fill="#F1F5F9" class="font-mono" font-size="10">FastAPI</text>
+
+      <rect x="115" y="0" width="105" height="20" rx="4" fill="#080B12" stroke="#253047" stroke-width="0.8" />
+      <text x="123" y="14" fill="#F1F5F9" class="font-mono" font-size="10">Node.js</text>
+
+      <rect y="26" width="105" height="20" rx="4" fill="#080B12" stroke="#253047" stroke-width="0.8" />
+      <text x="8" y="40" fill="#F1F5F9" class="font-mono" font-size="10">Python 3.12</text>
+
+      <rect x="115" y="26" width="105" height="20" rx="4" fill="#080B12" stroke="#253047" stroke-width="0.8" />
+      <text x="123" y="40" fill="#F1F5F9" class="font-mono" font-size="10">Spring Boot</text>
+
+      <rect y="52" width="220" height="20" rx="4" fill="#080B12" stroke="#253047" stroke-width="0.8" />
+      <text x="8" y="66" fill="#A5B4FC" class="font-mono" font-size="9.5">FLASK · EXPRESS · RESTFUL APIS</text>
+    </g>
+  </g>
+
+  <!-- Pillar 3: Data & Storage Systems -->
+  <g transform="translate(608, 52)">
+    <rect width="270" height="154" rx="8" fill="#121827" stroke="#253047" stroke-width="1" />
+    <text x="16" y="26" fill="#A78BFA" class="font-head" font-size="13.5">Databases &amp; Persistence</text>
+    <text x="16" y="44" fill="#94A3B8" class="font-sans" font-size="11">Relational, document, vector</text>
+
+    <g transform="translate(16, 60)">
+      <rect y="0" width="105" height="20" rx="4" fill="#080B12" stroke="#253047" stroke-width="0.8" />
+      <text x="8" y="14" fill="#F1F5F9" class="font-mono" font-size="10">PostgreSQL</text>
+
+      <rect x="115" y="0" width="105" height="20" rx="4" fill="#080B12" stroke="#253047" stroke-width="0.8" />
+      <text x="123" y="14" fill="#F1F5F9" class="font-mono" font-size="10">MySQL</text>
+
+      <rect y="26" width="105" height="20" rx="4" fill="#080B12" stroke="#253047" stroke-width="0.8" />
+      <text x="8" y="40" fill="#F1F5F9" class="font-mono" font-size="10">MongoDB</text>
+
+      <rect x="115" y="26" width="105" height="20" rx="4" fill="#080B12" stroke="#253047" stroke-width="0.8" />
+      <text x="123" y="40" fill="#F1F5F9" class="font-mono" font-size="10">Firebase</text>
+
+      <rect y="52" width="220" height="20" rx="4" fill="#080B12" stroke="#253047" stroke-width="0.8" />
+      <text x="8" y="66" fill="#C4B5FD" class="font-mono" font-size="9.5">SCHEMA INTEGRITY · QUERY DESIGN</text>
+    </g>
+  </g>
+
+  <!-- Pillar 4: DevOps, Cloud & Tooling -->
+  <g transform="translate(898, 52)">
+    <rect width="274" height="154" rx="8" fill="#121827" stroke="#253047" stroke-width="1" />
+    <text x="16" y="26" fill="#94A3B8" class="font-head" font-size="13.5">DevOps &amp; Infrastructure</text>
+    <text x="16" y="44" fill="#94A3B8" class="font-sans" font-size="11">Automation &amp; environments</text>
+
+    <g transform="translate(16, 60)">
+      <rect y="0" width="105" height="20" rx="4" fill="#080B12" stroke="#253047" stroke-width="0.8" />
+      <text x="8" y="14" fill="#F1F5F9" class="font-mono" font-size="10">Docker</text>
+
+      <rect x="115" y="0" width="115" height="20" rx="4" fill="#080B12" stroke="#253047" stroke-width="0.8" />
+      <text x="123" y="14" fill="#F1F5F9" class="font-mono" font-size="10">Linux OS</text>
+
+      <rect y="26" width="105" height="20" rx="4" fill="#080B12" stroke="#253047" stroke-width="0.8" />
+      <text x="8" y="40" fill="#F1F5F9" class="font-mono" font-size="10">Git / GitHub</text>
+
+      <rect x="115" y="26" width="115" height="20" rx="4" fill="#080B12" stroke="#253047" stroke-width="0.8" />
+      <text x="123" y="40" fill="#F1F5F9" class="font-mono" font-size="10">Vercel / Netlify</text>
+
+      <rect y="52" width="230" height="20" rx="4" fill="#080B12" stroke="#253047" stroke-width="0.8" />
+      <text x="8" y="66" fill="#94A3B8" class="font-mono" font-size="9.5">POSTMAN · VS CODE · CI/CD</text>
+    </g>
+  </g>
+</svg>

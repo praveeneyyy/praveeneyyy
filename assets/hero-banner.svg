@@ -1,0 +1,201 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080B12" />
+      <stop offset="45%" stop-color="#0D111B" />
+      <stop offset="85%" stop-color="#121827" />
+      <stop offset="100%" stop-color="#080B12" />
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#253047" stop-opacity="0.5" />
+      <stop offset="25%" stop-color="#22D3EE" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.7" />
+      <stop offset="75%" stop-color="#A78BFA" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#253047" stop-opacity="0.5" />
+    </linearGradient>
+
+    <!-- Name Text Gradient -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="35%" stop-color="#F1F5F9" />
+      <stop offset="75%" stop-color="#67E8F9" />
+      <stop offset="100%" stop-color="#22D3EE" />
+    </linearGradient>
+
+    <!-- Subtitle Gradient -->
+    <linearGradient id="subGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE" />
+      <stop offset="50%" stop-color="#818CF8" />
+      <stop offset="100%" stop-color="#A78BFA" />
+    </linearGradient>
+
+    <!-- Ambient Glow Filters -->
+    <filter id="glowCyan" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="60" result="blur" />
+    </filter>
+    <filter id="glowIndigo" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="55" result="blur" />
+    </filter>
+    <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="beaconGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Technical Grid Pattern -->
+    <pattern id="techGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#22D3EE" stroke-width="0.7" stroke-opacity="0.04" />
+      <circle cx="40" cy="40" r="1" fill="#818CF8" fill-opacity="0.12" />
+    </pattern>
+
+    <!-- Isometric Mesh Pattern -->
+    <pattern id="dotMatrix" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="0.8" fill="#64748B" fill-opacity="0.15" />
+    </pattern>
+  </defs>
+
+  <style>
+    .font-mono {
+      font-family: 'Geist Mono', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+    }
+    .font-heading {
+      font-family: 'Space Grotesk', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-weight: 800;
+    }
+    .font-body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+  </style>
+
+  <!-- Deep Canvas Base -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+  <rect width="1200" height="360" rx="16" fill="url(#techGrid)" />
+
+  <!-- Ambient Light Clouds (Linear/Raycast style) -->
+  <g opacity="0.45" style="mix-blend-mode: screen;">
+    <ellipse cx="220" cy="90" rx="180" ry="110" fill="#22D3EE" filter="url(#glowCyan)" opacity="0.3" />
+    <ellipse cx="980" cy="140" rx="220" ry="130" fill="#818CF8" filter="url(#glowIndigo)" opacity="0.35" />
+    <ellipse cx="600" cy="300" rx="260" ry="80" fill="#A78BFA" filter="url(#glowIndigo)" opacity="0.2" />
+  </g>
+
+  <!-- Perspective Engineering Lines -->
+  <g stroke="#253047" stroke-width="0.8" opacity="0.35">
+    <line x1="0" y1="40" x2="1200" y2="40" stroke-dasharray="4 8" />
+    <line x1="0" y1="320" x2="1200" y2="320" stroke-dasharray="4 8" />
+    <line x1="160" y1="0" x2="160" y2="360" stroke-dasharray="2 6" />
+    <line x1="1040" y1="0" x2="1040" y2="360" stroke-dasharray="2 6" />
+  </g>
+
+  <!-- Abstract Neural Node Constellations -->
+  <!-- Left Cluster -->
+  <g opacity="0.55">
+    <line x1="110" y1="130" x2="180" y2="90" stroke="#22D3EE" stroke-width="1" stroke-opacity="0.3" />
+    <line x1="180" y1="90" x2="250" y2="140" stroke="#818CF8" stroke-width="1" stroke-opacity="0.3" />
+    <line x1="180" y1="90" x2="170" y2="210" stroke="#22D3EE" stroke-width="1" stroke-opacity="0.25" />
+    <line x1="170" y1="210" x2="240" y2="250" stroke="#818CF8" stroke-width="1" stroke-opacity="0.3" />
+    <line x1="250" y1="140" x2="240" y2="250" stroke="#A78BFA" stroke-width="1" stroke-opacity="0.2" />
+    
+    <circle cx="110" cy="130" r="3" fill="#22D3EE" filter="url(#beaconGlow)" />
+    <circle cx="180" cy="90" r="4" fill="#818CF8" filter="url(#beaconGlow)" />
+    <circle cx="250" cy="140" r="3.5" fill="#22D3EE" />
+    <circle cx="170" cy="210" r="3" fill="#A78BFA" />
+    <circle cx="240" cy="250" r="3.5" fill="#22D3EE" filter="url(#beaconGlow)" />
+  </g>
+
+  <!-- Right Cluster -->
+  <g opacity="0.55">
+    <line x1="950" y1="110" x2="1030" y2="80" stroke="#818CF8" stroke-width="1" stroke-opacity="0.3" />
+    <line x1="1030" y1="80" x2="1090" y2="150" stroke="#22D3EE" stroke-width="1" stroke-opacity="0.3" />
+    <line x1="1030" y1="80" x2="1010" y2="220" stroke="#A78BFA" stroke-width="1" stroke-opacity="0.25" />
+    <line x1="1010" y1="220" x2="1080" y2="260" stroke="#818CF8" stroke-width="1" stroke-opacity="0.3" />
+    <line x1="950" y1="110" x2="1010" y2="220" stroke="#22D3EE" stroke-width="1" stroke-opacity="0.2" />
+
+    <circle cx="950" cy="110" r="3.5" fill="#818CF8" />
+    <circle cx="1030" cy="80" r="4" fill="#22D3EE" filter="url(#beaconGlow)" />
+    <circle cx="1090" cy="150" r="3" fill="#A78BFA" />
+    <circle cx="1010" cy="220" r="3" fill="#22D3EE" />
+    <circle cx="1080" cy="260" r="4" fill="#818CF8" filter="url(#beaconGlow)" />
+  </g>
+
+  <!-- Top Status Badge Pill -->
+  <g transform="translate(600, 52)">
+    <rect x="-190" y="-14" width="380" height="28" rx="14" fill="#121827" stroke="#253047" stroke-width="1" />
+    <!-- Glowing beacon pulse -->
+    <circle cx="-165" cy="0" r="4.5" fill="#22D3EE" filter="url(#beaconGlow)">
+      <animate attributeName="opacity" values="0.4; 1; 0.4" dur="2.4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="-165" cy="0" r="2.5" fill="#FFFFFF" />
+    <text x="-150" y="4" fill="#94A3B8" class="font-mono" font-size="10.5" letter-spacing="1.5">SATHYABAMA AI &amp; ML '28  //  SYSTEM ONLINE</text>
+  </g>
+
+  <!-- Center Typography Identity -->
+  <!-- Name -->
+  <g transform="translate(600, 165)">
+    <text text-anchor="middle" fill="url(#nameGrad)" class="font-heading" font-size="56" letter-spacing="8" filter="url(#textGlow)">PRAVEEN KUMAR</text>
+  </g>
+
+  <!-- Designation Rule -->
+  <g transform="translate(600, 215)">
+    <!-- Subtitle Lines -->
+    <line x1="-320" y1="0" x2="-210" y2="0" stroke="#253047" stroke-width="1" />
+    <circle cx="-210" cy="0" r="2" fill="#22D3EE" />
+    <text text-anchor="middle" y="5" fill="url(#subGrad)" class="font-mono" font-size="14.5" font-weight="600" letter-spacing="5.5">AI ENGINEER  ·  FULL-STACK DEVELOPER</text>
+    <circle cx="210" cy="0" r="2" fill="#818CF8" />
+    <line x1="210" y1="0" x2="320" y2="0" stroke="#253047" stroke-width="1" />
+  </g>
+
+  <!-- Core Capability Pills / Tech Architecture String -->
+  <g transform="translate(600, 275)">
+    <!-- Grouped Minimal Badges -->
+    <g transform="translate(-250, 0)">
+      <rect x="-65" y="-12" width="130" height="24" rx="6" fill="#0D111B" stroke="#253047" stroke-width="0.8" />
+      <text text-anchor="middle" y="4" fill="#22D3EE" class="font-mono" font-size="10.5" letter-spacing="1">AGENTIC AI</text>
+    </g>
+    <g transform="translate(-85, 0)">
+      <rect x="-80" y="-12" width="160" height="24" rx="6" fill="#0D111B" stroke="#253047" stroke-width="0.8" />
+      <text text-anchor="middle" y="4" fill="#818CF8" class="font-mono" font-size="10.5" letter-spacing="1">FOUNDATION MODELS</text>
+    </g>
+    <g transform="translate(95, 0)">
+      <rect x="-80" y="-12" width="160" height="24" rx="6" fill="#0D111B" stroke="#253047" stroke-width="0.8" />
+      <text text-anchor="middle" y="4" fill="#A78BFA" class="font-mono" font-size="10.5" letter-spacing="1">FULL-STACK SYSTEMS</text>
+    </g>
+    <g transform="translate(265, 0)">
+      <rect x="-70" y="-12" width="140" height="24" rx="6" fill="#0D111B" stroke="#253047" stroke-width="0.8" />
+      <text text-anchor="middle" y="4" fill="#94A3B8" class="font-mono" font-size="10.5" letter-spacing="1">COMPUTER VISION</text>
+    </g>
+  </g>
+
+  <!-- Bottom Telemetry HUD Line -->
+  <g transform="translate(600, 335)">
+    <text text-anchor="start" x="-560" y="0" fill="#64748B" class="font-mono" font-size="9" letter-spacing="1.5">SYS.ID: PK-2212</text>
+    <text text-anchor="middle" x="0" y="0" fill="#64748B" class="font-mono" font-size="9" letter-spacing="2">ARCHITECTING INTELLIGENT SYSTEMS · BRIDGING AI WITH PRODUCTION BACKENDS</text>
+    <text text-anchor="end" x="560" y="0" fill="#64748B" class="font-mono" font-size="9" letter-spacing="1.5">LOC: 13.0827° N, 80.2707° E</text>
+  </g>
+
+  <!-- Corner Precision Crosshairs -->
+  <g stroke="#22D3EE" stroke-width="1.2" opacity="0.6">
+    <!-- Top Left -->
+    <path d="M 16 28 L 16 16 L 28 16" fill="none" />
+    <!-- Top Right -->
+    <path d="M 1172 16 L 1184 16 L 1184 28" fill="none" />
+    <!-- Bottom Left -->
+    <path d="M 16 332 L 16 344 L 28 344" fill="none" />
+    <!-- Bottom Right -->
+    <path d="M 1172 344 L 1184 344 L 1184 332" fill="none" />
+  </g>
+
+  <!-- Frame Border with Shimmer -->
+  <rect x="0.5" y="0.5" width="1199" height="359" rx="15.5" stroke="url(#borderGrad)" stroke-width="1" />
+</svg>
